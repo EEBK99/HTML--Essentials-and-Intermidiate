@@ -1,0 +1,44 @@
+<html>
+    <body>
+
+        <button>
+            <a href="./index.html">Go back To Main Page</a>
+        </button>
+
+        <h2>SIGN UP FORM</h2>
+
+        <!-- Name, Email, Password, Age, Gender, Submit Button -->
+        <!-- Validation -->
+
+        <form action="./index.html">
+            <div>
+                <label for="name" >Name </label>
+                <input required name="name" id="name" type="text" placeholder="Your Name"/>
+            </div>
+            <div>
+                <label for="email" >Email </label>
+                <input required name="email" id="email" type="email" placeholder="Your Email"/>
+            </div>
+            <div>
+                <label for="password" >Password </label>
+                <input required name="password" id="password" type="password" placeholder="Your Password"/>
+            </div>
+            <div>
+                <label for="age" >Age </label>
+                <input required name="age" id="age" type="number" placeholder="Your Age"/>
+            </div>
+            <div>
+                <!-- when using radio buttons we have to assign same value for name attribute  -->
+                <label for="male" >Male</label>
+                <input required name="gender" id="male" type="radio" value="Male"/>
+                <label for="female" >Female</label>
+                <input required name="gender" id="female" type="radio" value="Female"/>
+            </div>
+
+            <input type="submit" value="Sign Me Up"/>
+
+            <!-- http://127.0.0.1:5500/index.html?name=Muhammad+Haseeb&email=haseeb999khan%40gmail.com&password=d31d1&age=34&gender=Male -->
+        </form>
+
+    </body>
+</html>
